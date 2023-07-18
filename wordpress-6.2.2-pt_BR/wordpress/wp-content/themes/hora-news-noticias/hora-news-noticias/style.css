@@ -313,7 +313,7 @@ footer.entry-footer {
   display: flex;
   align-items: center;
   justify-content: start;
-  padding-left: 123px;
+  margin-top: 30px;
 }
 
 .pagination .arrow,

@@ -53,6 +53,18 @@
                     echo 'Nenhum post encontrado.';
                 }
                 ?>
+                <!-- paginação dos Posts -->
+                
+                <div class="pagination">
+                    <div class="arrow ar-1" onclick="previousPage()">&laquo;</div>
+                    <div class="number" onclick="goToPage(1)">1</div>
+                    <div class="number">2</div>
+                    <div class="number">3</div>
+                    <div class="number">4</div>
+                    <div class="dots">...</div>
+                    <div class="number">28</div>
+                    <div class="arrow ar-2" onclick="nextPage()">&raquo;</div>
+                </div>
             </div>
         </div>
     </div>
